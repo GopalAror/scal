@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800&display=swap');
-
 .view{
   right: 0 !important;
 }
@@ -42,21 +41,17 @@ transform: rotate(180deg);
 .accordionMenu1 input[type=radio] {
   display: none;
 }
-
 .accordionMenu1 .content1 {
   max-height: 0;
   height: 0;
   overflow: hidden;
 }
-
 .accordionMenu1 input[type=radio]:checked+label p span .plus {
   display: none;
 }
-
 .accordionMenu1 input[type=radio]:checked+label p span .sub {
   transform: translateX(-10px);
 }
-
 .accordionMenu1 input[type=radio]:checked+label+.content1 {
   max-height: 2000px;
   height: auto;
