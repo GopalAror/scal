@@ -1,0 +1,809 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="./public/image/apple-touch-icon.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>scal-mobile</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+    integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+    integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+
+<body>
+  <div class="bg-black">
+    <header class="relative z-0 ">
+      <div
+        class="lg:w-[300px] lg:h-[300px] md:w-[250px] md:h-[250px] h-[150px] w-[150px] rounded-[50%] blur-[245px] bg-gradient-to-b from-[#0076BE] to-[#95D8EB]  absolute top-0 right-0">
+      </div>
+      <img class="absolute top-[-5%] right-[13%] z-0" src="./public/image/head-line.webp" alt="head-line">
+      <nav class="h-[100px] border-b-white-500 border-b flex items-center relative z-20">
+        <div class="container max-w-[1140px] mx-auto px-3">
+          <div class="flex justify-between items-center">
+            <div class="">
+              <img src="./public/image/logo.png" alt="logo">
+            </div>
+            <div
+              class="flex items-center max-[640px]:flex-col max-[640px]:justify-center max-[640px]:w-full max-[640px]:fixed max-[640px]:right-[-100%] max-[640px]:top-0 max-[640px]:h-full max-[640px]:gap-[50px] max-[640px]:transition-[.4s] max-[1180px]:bg-black  z-40 mobile">
+              <ul class="p-0 m-0 flex max-[640px]:flex-col gap-[24px] justify-center items-center">
+                <li><a
+                    class="font-rubik text-white text-[16px] font-normal opacity-70 leading-[25.6px] hover:opacity-100 transition duration-300 ease-linear"
+                    href="#">Home</a></li>
+                <li><a
+                    class="font-rubik text-white text-[16px] font-normal opacity-70 leading-[25.6px] hover:opacity-100 transition duration-300 ease-linear"
+                    href="#">About Us</a></li>
+                <li><a
+                    class="font-rubik text-white text-[16px] font-normal opacity-70 leading-[25.6px] hover:opacity-100 transition duration-300 ease-linear"
+                    href="#">Why Choose Us</a></li>
+                <button
+                  class="font-rubik min-[640px]:hidden text-white text-[16px] font-normal leading-[25.6px] py-[14px] px-[33px] inline-flex items-center gap-[10px] rounded-[100px] bg-gradient-to-tl from-[#48BF91]  to-[#0076BE]">Contact
+                  Us</button>
+              </ul>
+            </div>
+            <label class="absolute right-2 flex-col hidden max-[640px]:flex menu z-40">
+              <span class="bg-white h-1 w-10 mb-[7px] cross1 transition-[.3s] rounded-3xl"></span>
+              <span class="bg-white h-1 w-10 mb-[7px] cross2 transition-[.3s] rounded-3xl"></span>
+              <span class="bg-white h-1 w-10 cross3 transition-[.3s] rounded-3xl"></span>
+            </label>
+            <div class="">
+              <button
+                class="font-rubik max-[400px]:hidden max-[640px]:mr-[50px] text-white text-[16px] font-normal leading-[25.6px] py-[14px] px-[33px] inline-flex items-center gap-[10px] rounded-[100px] bg-gradient-to-tl from-[#48BF91]  to-[#0076BE]">Contact
+                Us</button>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <section class="relative">
+        <div
+          class="lg:w-[300px] lg:h-[300px] md:h-[250px] md:w-[250px] h-[150px] w-[150px] rounded-[50%] blur-[245px] bg-[#D93228] absolute left-[40%] top-[30%] z-0">
+        </div>
+        <div
+          class="container mx-auto px-3 max-w-[1140px] flex flex-col items-center justify-center h-full relative z-[1]">
+          <h1
+            class="text-[white] text-[48px] max-w-[813px] text-center leading-[53.76px] font-rubik font-medium pt-[80px]">
+            Redefining the Smartphone Re-Commerce Industry Since 2010</h1>
+          <p
+            class="max-w-[671px] text-white font-rubik text-[20px] font-normal leading-[30px] text-center opacity-70 pt-2 pb-[67px]">
+            Serving customers across North America, South America, Europe, Australia, and Asia</p>
+          <img class="w-full" src="./public/image/map.webp" alt="map">
+        </div>
+        <div
+          class="lg:w-[300px] lg:h-[300px] md:w-[250px] md:h-[250px] h-[150px] w-[150px] rounded-[50%] opacity-80 blur-[222px] bg-gradient-to-b from-[#48BF91] to-[#8BD9C7] absolute bottom-0 left-[-10%]">
+        </div>
+      </section>
+    </header>
+    <div>
+      <div class="container max-w-[1140px] px-3 mx-auto pt-[60px]">
+        <div class="grid grid-cols-2 gap-[50px]">
+          <div>
+            <img class="w-full" src="./public/image/sec2-img.webp" alt="sec2-img">
+          </div>
+          <div class=" items-center flex">
+            <p
+              class="text-white relative font-rubik text-[20px] font-normal leading-[30px] max-w-[405px] after:content-[''] after:bg-gradient-to-t from-[#48BF91] after:rounded-[8px] to-[#0076BE] after:w-[5px] after:h-full after:absolute after:left-[-5%] after:top-0">
+              SCal Mobile marked its presence in <span class="text-[#338CBA]">2010</span>. Since then, we have been
+              working tirelessly around the
+              idea of providing customers with premium devices and services that change the norm in the smartphone
+              re-commerce industry, moving into a new, more efficient era.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="relative overflow-hidden">
+      <div class="container max-w-[1140px] px-3 mx-auto ">
+        <div
+          class="lg:w-[287px] lg:h-[287px] md:w-[200px] md:h-200px w-[150px] h-[150px] bg-[#0076BE] blur-[70px] opacity-40 rounded-[50%] absolute right-[-5%] top-[14%]">
+        </div>
+        <div class="grid grid-cols-2 gap-[50px]">
+          <div class=" items-center flex">
+            <p
+              class="text-white relative font-rubik text-[20px] font-normal leading-[30px] max-w-[405px] after:content-[''] after:bg-gradient-to-t from-[#48BF91] after:rounded-[8px] to-[#0076BE] after:w-[5px] after:h-full after:absolute after:left-[-5%] after:top-0">
+              What started as a small US-based business has now evolved into an international industry leader, operating
+              in North and South America, Asia, Europe, and Australia. Despite our worldwide growth, our vision remains
+              the same; to satisfy all your device-sourcing needs.</p>
+          </div>
+          <div>
+            <img class="w-full" src="./public/image/sec3-img.webp" alt="sec3-img">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="relative">
+      <div
+        class="lg:w-[300px] lg:h-[300px] md:w-[250px] md:h-[250px] h-[180px] w-[180px] absolute left-[-10%] top-[30%] opacity-50 blur-[151px] bg-gradient-to-tl from-[#48BF91] to-[#8BD9C7] rounded-[50%]">
+      </div>
+      <div class="container max-w-[1140px] px-3 mx-auto">
+        <div class="grid grid-cols-2 gap-[50px]">
+          <div>
+            <img class="w-full" src="./public/image/sec4-img.webp" alt="sec4-img">
+          </div>
+          <div class=" items-center flex">
+            <p
+              class="text-white relative font-rubik text-[20px] font-normal leading-[30px] max-w-[405px] after:content-[''] after:bg-gradient-to-t from-[#48BF91] after:rounded-[8px] to-[#0076BE] after:w-[5px] after:h-full after:absolute after:left-[-5%] after:top-0">
+              From retailers, carriers, distributors, and repair shops to individual consumers, we cater to diverse
+              needs, following a client-centric approach that puts your specific requirements in the spotlight.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container max-w-[881px] mx-auto px-3 pt-[60px] pb-[130px] relative">
+      <div
+        class="border-t border-t-[#0076BE] border-b border-b-[#1A91AD]  rounded-[4px] py-[38px] backdrop-sepia-[28.484941482543945px] flex items-center justify-center bg-gradient-to-b from-[rgba(0,118,190,0.05)] to-[rgba(72,191,145,0.05)]">
+        <div
+          class="lg:w-[269px] h-[39px] md:w-[200px] sm:w-[130px] z-10 absolute rounded-[269px] opacity-50 blur-[50px] bg-gradient-to-l from-[#0076BE] to-[#95D8EB]">
+        </div>
+        <p class="text-white max-w-[685px] font-rubik text-[18px] font-medium leading-[27px] text-center z-20">Browse
+          our
+          wide assortment of smartphones and services, find what responds to your demands, and let us do what we know
+          best; offer you the most pleasant, smooth, and stress-free client experience.</p>
+      </div>
+    </div>
+    <section class="bg-[url('/public/image/bg-roadmap.webp')] bg-cover bg-no-repeat">
+      <div class="container pt-[40px] mx-auto max-w-[1140px]">
+        <h2 class="text-white text-center text-[40px] font-rubik font-medium leading-[48px] pt-[100px] pb-2">Why Choose
+          Us?</h2>
+        <p class="text-center text-[16px] text-white font-rubik font-normal leading-[25.6px] opacity-70 pb-[75px]">Here
+          are a few good reasons that make SCal Mobile your no.1 choice:</p>
+        <div class="flex flex-col md:grid grid-cols-9 mx-auto p-2 text-blue-50 pb-[100px]">
+          <!-- right -->
+          <div class="flex md:contents">
+            <div class="col-end-3 md:block hidden">
+              <p class="text-center font-rubik leading-[216px] text-[180px] font-black custom-text">01</p>
+            </div>
+            <div class="col-start-5 col-end-6 mr-10 md:mx-auto relative">
+              <div class="h-full w-6 flex items-center justify-center">
+                <div class="h-full w-[2px] bg-[url('/public/image/Line12.png')] pointer-events-none"></div>
+              </div>
+              <div
+                class="h-6 ring ring-[#4BA7BE] border-4 absolute top-0  rounded-full border-[#82C1D1]  bg-white w-6 shadow">
+              </div>
+            </div>
+            <div class="bg-transparent col-start-6 col-end-10 max-w-[459px] pb-[70px]">
+              <p class="text-white text-[30px] font-rubik leading-[24px] font-medium md:hidden block opacity-70">01</p>
+              <h3 class="leading-[33px] mb-1 font-rubik text-[28px] font-medium text-white">We Know What We Do</h3>
+              <p class="leading-[25px] text-[16px] text-white font-rubik font-normal text-justify opacity-70 ">We’ve
+                been there, done this. Actually, we have been doing this for
+                over a decade, pouring all our time, energy, and resources into sourcing the best products for you and
+                providing them at the most competitive prices in the market. We pay meticulous attention to our
+                refurbishing process, ensuring we deliver premium products that stand the test of time and comply with
+                our quality standards.
+              </p>
+            </div>
+          </div>
+          <!-- left -->
+          <div class="flex flex-row-reverse md:contents">
+            <div class="bg-transparent col-start-1 col-end-5 ml-auto pb-[70px]">
+              <p class="text-white text-[30px] font-rubik leading-[24px] font-medium md:hidden block opacity-70">02</p>
+              <h3 class="leading-[33px] mb-1 font-rubik text-[28px] font-medium text-white">It’s All About What Adds
+                Value For You</h3>
+              <p
+                class="leading-[25px] md:text-right opacity-70 max-w-[459px] md:max-w-full text-white font-rubik font-normal text-[16px]">
+                We may not be the only tech
+                solutions company in the industry, but we are the leading one. Since the beginning of our journey in the
+                tech world, we have been striving to establish an uncompromising level of quality, bringing value with
+                all our products and services. The biggest proof of our exceptional performance is our strong base of
+                happy clients that keeps growing every day. Be it a retailer, a carrier, a distributor, a repair shop,
+                or a consumer, we work hard to provide you with the most profitable tech alternatives regardless of your
+                business size and requirements.</p>
+            </div>
+            <div class="col-start-5 col-end-6 md:mx-auto relative mr-10">
+              <div class="h-full w-6 flex items-center justify-center">
+                <div class="h-full w-[2px] bg-[url('/public/image/Line12.png')] pointer-events-none"></div>
+              </div>
+              <div
+                class="h-6 ring ring-[#4BA7BE] border-4 absolute top-[6%]  rounded-full border-[#82C1D1]  bg-white w-6 shadow">
+              </div>
+            </div>
+            <div class="col-end-8 md:block hidden">
+              <p class="text-center font-rubik leading-[216px] text-[180px] font-black custom-text">02</p>
+            </div>
+          </div>
+          <!-- right -->
+          <div class="flex sm:contents">
+            <div class="col-end-3 md:block hidden">
+              <p class="text-center font-rubik leading-[216px] text-[180px] font-black custom-text">03</p>
+            </div>
+            <div class="col-start-5 col-end-6 mr-10 md:mx-auto relative">
+              <div class="h-full w-6 flex items-center justify-center">
+                <div class="h-full w-[2px] bg-[url('/public/image/Line12.png')] pointer-events-none"></div>
+              </div>
+              <div
+                class="h-6 ring ring-[#4BA7BE] border-4 absolute top-[6%]  rounded-full border-[#82C1D1]  bg-white w-6 shadow">
+              </div>
+            </div>
+            <div class="bg-transparent col-start-6 col-end-10 max-w-[459px]">
+              <p class="text-white text-[30px] font-rubik leading-[24px] font-medium md:hidden block opacity-70">03</p>
+              <h3 class="leading-[33px] mb-1 font-rubik text-[28px] font-medium text-white">However Far Away, We Will
+                Always Serve You</h3>
+              <p class="leading-[25px] text-[16px] text-white font-rubik font-normal text-justify opacity-70"> Whether
+                on a tropical island in Asia or a European
+                metropolis, we will deliver you the smartphone or service of your preference with zero hassle. As an
+                international distributor, we take great pride in being able to serve every business or individual from
+                across the globe. Choose from a large panel of iPhones and tech services, and our team will guarantee it
+                gets to you without stress or extra worries. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class=" py-12 relative z-[1] overflow-hidden">
+      <span class="bg-greenlight w-[384px] h-[384px] blur-[151px] z-[-1] absolute top-[10%] left-[-20%] "></span>
+      <span class="bg-[#0076BE] w-[384px] h-[384px] blur-[151px] z-[-1] absolute bottom-[10%] right-[-20%] "></span>
+      <div class="container mx-auto max-w-[1140px] px-3 py-12">
+        <div class="grid lg:grid-cols-2 items-center md:gap-[50px] py-12 ">
+          <div class="accordionMenu">
+            <h2 class="font-Rubik text-white text-[40px] font-medium">About Us</h2>
+            <p class="font-Rubik text-[#B4B5B5] text-base font-medium pb-8">We Started With A Single Goal:</p>
+            <div
+              class="flex  border border-l-[#116696] border-r-[#4A89A5] border-y-[#5490A8] rounded-[4px] my-3 py-[13px] px-[16px]">
+              <span class="text-white pr-1 text-xl">Q1.</span>
+              <div>
+                <input type="radio" name="trg1" id="acc1" checked="checked">
+                <label for="acc1" class="relative block  cursor-pointer bg-transparent">
+                  <p class="flex text-white font-Rubik justify-between"><span
+                      class="max-w-[442px] font-normal text-xl ">To Become The Trusted Source For All Things Smartphone
+                      In The International Re-Commerce World</span><span class="group-focus:rotate-180"><svg class=""
+                        width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M17.3008 8.6998C17.1174 8.51647 16.8841 8.4248 16.6008 8.4248C16.3174 8.4248 16.0841 8.51647 15.9008 8.6998L12.0008 12.5998L8.10078 8.6998C7.91745 8.51647 7.68411 8.4248 7.40078 8.4248C7.11745 8.4248 6.88411 8.51647 6.70078 8.6998C6.51745 8.88314 6.42578 9.11647 6.42578 9.3998C6.42578 9.68314 6.51745 9.91647 6.70078 10.0998L11.3008 14.6998C11.4008 14.7998 11.5091 14.8708 11.6258 14.9128C11.7424 14.9548 11.8674 14.9755 12.0008 14.9748C12.1341 14.9748 12.2591 14.9538 12.3758 14.9118C12.4924 14.8698 12.6008 14.7991 12.7008 14.6998L17.3008 10.0998C17.4841 9.91647 17.5758 9.68314 17.5758 9.3998C17.5758 9.11647 17.4841 8.88314 17.3008 8.6998Z"
+                          fill="white" />
+                      </svg>
+                    </span></p>
+                </label>
+                <div class="content pt-1">
+                  <div class=" text-[#B2B2B2] font-Rubik bg-transparent pt-[5px] text-base font-normal  ">
+                    <p>Our adventure started back in 2010 when we founded SCal Mobile, a tech solutions company focused
+                      on consumer electronics. It didn’t take us long to understand that the US borders could not fit
+                      us, expanding our operations
+                      across the globe. Today, we are proud to serve North and South America as well as Europe, Asia,
+                      and Australia.</p>
+                    <p class="pt-[5px]">Following a comprehensive market approach, we seek to serve clients of all
+                      sizes, including big corporations and consumers. That is why our company consists of two highly
+                      complementary segments; a B2B wholesale trade
+                      for businesses and a B2C business for consumers that seek to level up their performance with
+                      smartphones and premium tech services.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex border border-l-[#116696] border-r-[#4A89A5] border-y-[#5490A8] rounded-[4px] my-3 py-[13px] px-[16px]">
+              <span class="text-white pr-1 text-xl">Q2.</span>
+              <div>
+                <input type="radio" name="trg1" id="acc2">
+                <label for="acc2" class="  relative text-white font-Rubik block cursor-pointer bg-transparent ">
+                  <p class="flex  text-white font-Rubik justify-between "><span
+                      class="max-w-[442px] font-normal text-xl ">Doing Things The SCal Mobile Way</span><span
+                      class="group-focus:rotate-180"><svg class="" width="24" height="24" viewBox="0 0 24 24"
+                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M17.3008 8.6998C17.1174 8.51647 16.8841 8.4248 16.6008 8.4248C16.3174 8.4248 16.0841 8.51647 15.9008 8.6998L12.0008 12.5998L8.10078 8.6998C7.91745 8.51647 7.68411 8.4248 7.40078 8.4248C7.11745 8.4248 6.88411 8.51647 6.70078 8.6998C6.51745 8.88314 6.42578 9.11647 6.42578 9.3998C6.42578 9.68314 6.51745 9.91647 6.70078 10.0998L11.3008 14.6998C11.4008 14.7998 11.5091 14.8708 11.6258 14.9128C11.7424 14.9548 11.8674 14.9755 12.0008 14.9748C12.1341 14.9748 12.2591 14.9538 12.3758 14.9118C12.4924 14.8698 12.6008 14.7991 12.7008 14.6998L17.3008 10.0998C17.4841 9.91647 17.5758 9.68314 17.5758 9.3998C17.5758 9.11647 17.4841 8.88314 17.3008 8.6998Z"
+                          fill="white" />
+                      </svg>
+                    </span></p>
+                </label>
+                <div class="content pt-1">
+                  <div class=" text-[#B2B2B2] font-Rubik bg-transparent text-base font-normal ">
+                    <p>Our adventure started back in 2010 when we founded SCal Mobile, a tech solutions company focused
+                      on consumer electronics. It didn’t take us long to understand that the US borders could not fit
+                      us, expanding our operations
+                      across the globe. Today, we are proud to serve North and South America as well as Europe, Asia,
+                      and Australia.</p>
+                    <p class="pt-[5px]">Following a comprehensive market approach, we seek to serve clients of all
+                      sizes, including big corporations and consumers. That is why our company consists of two highly
+                      complementary segments; a B2B wholesale trade
+                      for businesses and a B2C business for consumers that seek to level up their performance with
+                      smartphones and premium tech services.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="flex   border border-l-[#116696] border-r-[#4A89A5] border-y-[#5490A8] rounded-[4px]  my-3 py-[13px] px-[16px]">
+              <span class="text-white pr-1 text-xl">Q3.</span>
+              <div>
+                <input type="radio" name="trg1" id="acc3">
+                <label for="acc3" class=" relative text-white font-Rubik block cursor-pointer bg-transparent ">
+                  <p class="flex  text-white font-Rubik justify-between "><span
+                      class="max-w-[442px] font-normal text-xl ">We Stand By Our Core Values Of Integrity & Customer
+                      Satisfaction</span><span class="group-focus:rotate-180"><svg class="" width="24" height="24"
+                        viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                          d="M17.3008 8.6998C17.1174 8.51647 16.8841 8.4248 16.6008 8.4248C16.3174 8.4248 16.0841 8.51647 15.9008 8.6998L12.0008 12.5998L8.10078 8.6998C7.91745 8.51647 7.68411 8.4248 7.40078 8.4248C7.11745 8.4248 6.88411 8.51647 6.70078 8.6998C6.51745 8.88314 6.42578 9.11647 6.42578 9.3998C6.42578 9.68314 6.51745 9.91647 6.70078 10.0998L11.3008 14.6998C11.4008 14.7998 11.5091 14.8708 11.6258 14.9128C11.7424 14.9548 11.8674 14.9755 12.0008 14.9748C12.1341 14.9748 12.2591 14.9538 12.3758 14.9118C12.4924 14.8698 12.6008 14.7991 12.7008 14.6998L17.3008 10.0998C17.4841 9.91647 17.5758 9.68314 17.5758 9.3998C17.5758 9.11647 17.4841 8.88314 17.3008 8.6998Z"
+                          fill="white" />
+                      </svg>
+                    </span></p>
+                </label>
+                <div class="content pt-1">
+                  <div class="  text-[#B2B2B2] font-Rubik bg-transparent text-base font-normal ">
+                    <p>Our adventure started back in 2010 when we founded SCal Mobile, a tech solutions company focused
+                      on consumer electronics. It didn’t take us long to understand that the US borders could not fit
+                      us, expanding our operations
+                      across the globe. Today, we are proud to serve North and South America as well as Europe, Asia,
+                      and Australia.</p>
+                    <p class="pt-[5px]">Following a comprehensive market approach, we seek to serve clients of all
+                      sizes, including big corporations and consumers. That is why our company consists of two highly
+                      complementary segments; a B2B wholesale trade
+                      for businesses and a B2C business for consumers that seek to level up their performance with
+                      smartphones and premium tech services.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex justify-center"><img class="lg:w-full w-3/4" src="./public/image/sec6-img1.webp"
+              alt="aboute"></div>
+        </div>
+      </div>
+    </section>
+    <section class="overflow-hidden relative z-20">
+      <div
+        class="lg:w-[384px] lg:h-[384px] md:w-[250px] md:h-[250px] sm:w-[150px] sm:h-[150px] bg-gradient-to-tl from-[#48BF91] to-[#8BD9C7] rounded-[50%] blur-[150px] opacity-50 absolute bottom-0 left-[-20%]">
+      </div>
+      <div class="container max-w-[1140px] mx-auto px-3 pb-[120px]">
+        <h3 class="text-white text-[40px] font-rubik font-medium leading-[48px] text-center pb-[80px]">Products</h3>
+        <div class="grid grid-cols-3 gap-[20px]">
+          <div
+            class="max-w-[358px] min-h-[560px] rounded-[15px] border-l border-l-[#0076BE] border-r border-r-[#1A91AD] py-[38px] backdrop-sepia-[28.484941482543945px] flex items-center justify-center flex-col bg-gradient-to-t from-[rgba(0,118,190,0.05)] to-[rgba(72,191,145,0.05)] px-[23px] hover:translate-y-[-30px] duration-300">
+            <div class="relative">
+              <img src="./public/image/phone-img.svg" alt="phone-img">
+              <div
+                class="w-[111px] h-[22px] absolute bg-gradient-to-t from-[#48BF91] to-[#0076BE] blur-[12px] opacity-30 left-[-5%]">
+              </div>
+            </div>
+            <p
+              class="text-[#95D8EB] font-rubik text-center font-normal text-[18px] leading-[27px] italic pt-[40px] pb-2">
+              iPhones</p>
+            <p class="text-[20px] text-white font-rubik font-normal text-center leading-[30px]">High-End Smartphones
+              Without The High Price Tag</p>
+            <p class="text-white font-rubik font-normal text-center leading-[25px] opacity-70 pt-[15px]">SCal Mobile
+              houses premium quality iPhones that are available at ultra-competitive prices. From the latest models to
+              update your collection to old phones in perfect condition, at SCal Mobile, you will find everything you
+              need in numerous colors and storage capacities.</p>
+          </div>
+          <div
+            class="max-w-[358px] min-h-[560px] rounded-[15px] border-l border-l-[#0076BE] border-r border-r-[#1A91AD] py-[38px] backdrop-sepia-[28.484941482543945px] flex items-center justify-center flex-col bg-gradient-to-t from-[rgba(0,118,190,0.05)] to-[rgba(72,191,145,0.05)] px-[23px] hover:translate-y-[-30px] duration-300">
+            <div class="relative">
+              <img src="./public/image/flip-img.svg" alt="secure-img">
+              <div
+                class="w-[111px] h-[22px] absolute bg-gradient-to-t from-[#48BF91] to-[#0076BE] blur-[12px] opacity-30 left-[-5%]">
+              </div>
+            </div>
+            <p
+              class="text-[#95D8EB] font-rubik text-center font-normal text-[18px] leading-[27px] italic pt-[40px] pb-2">
+              Grading</p>
+            <p class="text-[20px] text-white font-rubik font-normal text-center leading-[30px]">Products That Live Up To
+              All Expectations</p>
+            <p class="text-white font-rubik font-normal text-center leading-[25px] opacity-70 pt-[15px]">We wish to free
+              clients from the fear of buying poor-quality smartphones from the secondary mobile phone industry. That is
+              why all our products are thoroughly checked. They go through a 60-point techinical inspection process to
+              identify cosmetic or functional problems. We also follow a strict grading system that includes A, AB, and
+              fallout grades to ensure your phone will look and work perfectly. </p>
+          </div>
+          <div
+            class="max-w-[358px] min-h-[560px] rounded-[15px] border-l border-l-[#0076BE] border-r border-r-[#1A91AD] py-[38px] backdrop-sepia-[28.484941482543945px] flex items-center justify-center flex-col bg-gradient-to-t from-[rgba(0,118,190,0.05)] to-[rgba(72,191,145,0.05)] px-[23px] hover:translate-y-[-30px] duration-300">
+            <div class="relative">
+              <img src="./public/image/secure-img.svg" alt="secure-img">
+              <div
+                class="w-[111px] h-[22px] absolute bg-gradient-to-t from-[#48BF91] to-[#0076BE] blur-[12px] opacity-30 left-[-5%]">
+              </div>
+            </div>
+            <p
+              class="text-[#95D8EB] font-rubik text-center font-normal text-[18px] leading-[27px] italic pt-[40px] pb-2">
+              Warranty</p>
+            <p class="text-[20px] text-white font-rubik font-normal text-center leading-[30px]">Get Your Next Phone With
+              Serenity & Confidence</p>
+            <p class="text-white font-rubik font-normal text-center leading-[25px] opacity-70 pt-[15px]">If you face an
+              issue with your order, we offer a standard 45-day warranty that includes any device defect to give you
+              that much-needed confidence and calm during the purchase. </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bg-[url('/public/image/bg-service.png')] bg-cover bg-no-repeat relative">
+      <div class="container max-w-[1140px] mx-auto px-3 pt-[100px] flex items-center flex-col">
+        <h3 class="text-center font-medium font-rubik text-[40px] leading-[48px] text-white">Services</h3>
+        <p class="text-white max-w-[805px] text-center font-rubik font-normal leading-[25px] opacity-70 pt-2 pb-[50px]">
+          We sell products, but we are a service-based company. We’ll work with you to provide personalized solutions to
+          meet your specific requirements. Find some of our most commonly requested services below. </p>
+        <div class="slidr w-full pb-[100px]">
+          <div
+            class="max-w-[357px] min-h-[550px] rounded-[15px] px-[10px] pt-[31px] flex flex-col items-center border-r-2 border-l-2 border-r-white border-l-white bg-[rgba(255,255,255,0.10)] backdrop-blur-[28.484941482543945px] ml-[30px]">
+            <div class="relative">
+              <img src="./public/image/sec9-img.svg" alt="sec9-img">
+              <div class="w-[111px] h-[22px] absolute bg-white blur-[12px] opacity-[0.15] left-[-5%]"></div>
+            </div>
+            <p
+              class="text-white font-rubik text-center font-normal text-[16px] leading-[25px] italic pt-[37px] opacity-70">
+              Data Erasures</p>
+            <p class="max-w-[266px] font-rubik font-bold leading-[24px] text-white text-center text-[20px]">Secure
+              Deletion Of Data On All Devices</p>
+            <p class="text-white text-center text-[16px] font-rubik font-normal leading-[25px] pt-[15px] opacity-70">
+              Want to remove all data from your devices permanently? At SCal Mobile, we are certified to wipe any
+              data-containing devices. Our team uses approved methods that comply with the highest regulatory standards,
+              offering high-performing solutions that value your data's safety and save you from the deletion headache.
+            </p>
+          </div>
+          <div
+            class="max-w-[357px] min-h-[550px] rounded-[15px] px-[10px] pt-[31px] flex flex-col items-center border-r-2 border-l-2 border-r-white border-l-white bg-[rgba(255,255,255,0.10)] backdrop-blur-[28.484941482543945px] ml-[30px]">
+            <div class="relative">
+              <img src="./public/image/sec9-img2.svg" alt="sec9-img2">
+              <div class="w-[111px] h-[22px] absolute bg-white blur-[12px] opacity-[0.15] left-[-5%]"></div>
+            </div>
+            <p
+              class="text-white font-rubik text-center font-normal text-[16px] leading-[25px] italic pt-[37px] opacity-70">
+              Testing</p>
+            <p class="max-w-[266px] font-rubik font-bold leading-[24px] text-white text-center text-[20px]">Quality
+              Always Comes First</p>
+            <p class="text-white text-center text-[16px] font-rubik font-normal leading-[25px] pt-[15px] opacity-70">
+              That is why we have invested in a highly-detailed testing regime for every device that passes through our
+              hands. Every smartphone you get from SCal Mobile has gone under a 60-point inspection to ensure it is in
+              full working order and has no flaws. Our rigorous testing procedure follows stringent standards, including
+              several assessment processes and hardware and software checks, so you can have the peace of mind that your
+              phone is in impeccable condition.</p>
+          </div>
+          <div
+            class="max-w-[357px] min-h-[550px] rounded-[15px] px-[10px] pt-[31px] flex flex-col items-center border-r-2 border-l-2 border-r-white border-l-white bg-[rgba(255,255,255,0.10)] backdrop-blur-[28.484941482543945px] ml-[30px]">
+            <div class="relative">
+              <img src="./public/image/sec9-img3.svg" alt="sec9-img3">
+              <div class="w-[111px] h-[22px] absolute bg-white blur-[12px] opacity-[0.15] left-[-5%]"></div>
+            </div>
+            <p
+              class="text-white font-rubik text-center font-normal text-[16px] leading-[25px] italic pt-[37px] opacity-70">
+              Production Program</p>
+            <p class="max-w-[266px] font-rubik font-bold leading-[24px] text-white text-center text-[20px]">Advance
+              Inventory Access</p>
+            <p class="text-white text-center text-[16px] font-rubik font-normal leading-[25px] pt-[15px] opacity-70">
+              Worried the model you’re interested in will be sold before it’s added to our available inventory? Looking
+              to reserve a specific product not yet in our ready-to-ship offerings? With our Production Program, gain
+              advance notice to inventory that will be ready to ship within one to three days.</p>
+          </div>
+          <div
+            class="max-w-[357px] min-h-[550px] rounded-[15px] px-[10px] pt-[31px] flex flex-col items-center border-r-2 border-l-2 border-r-white border-l-white bg-[rgba(255,255,255,0.10)] backdrop-blur-[28.484941482543945px] ml-[30px]">
+            <div class="relative">
+              <img src="./public/image/sec9-img.svg" alt="sec9-img">
+              <div class="w-[111px] h-[22px] absolute bg-white blur-[12px] opacity-[0.15] left-[-5%]"></div>
+            </div>
+            <p
+              class="text-white font-rubik text-center font-normal text-[16px] leading-[25px] italic pt-[37px] opacity-70">
+              Data Erasures</p>
+            <p class="max-w-[266px] font-rubik font-bold leading-[24px] text-white text-center text-[20px]">Secure
+              Deletion Of Data On All Devices</p>
+            <p class="text-white text-center text-[16px] font-rubik font-normal leading-[25px] pt-[15px] opacity-70">
+              Want to remove all data from your devices permanently? At SCal Mobile, we are certified to wipe any
+              data-containing devices. Our team uses approved methods that comply with the highest regulatory standards,
+              offering high-performing solutions that value your data's safety and save you from the deletion headache.
+            </p>
+          </div>
+        </div>
+        <div
+          class="prev flex items-center justify-center p-[10px] w-[52px] h-[52px] rounded-[50%] border border-white absolute cursor-pointer hover:bg-white duration-300 group top-[55%] left-[12%]">
+          <svg class="group-hover:fill-black fill-white duration-300 " xmlns="http://www.w3.org/2000/svg" width="32"
+            height="32" viewBox="0 0 32 32">
+            <path
+              d="M20.4009 23.0669C20.6454 22.8224 20.7676 22.5113 20.7676 22.1336C20.7676 21.7558 20.6454 21.4447 20.4009 21.2002L15.2009 16.0002L20.4009 10.8002C20.6454 10.5558 20.7676 10.2447 20.7676 9.86689C20.7676 9.48912 20.6454 9.17801 20.4009 8.93356C20.1565 8.68912 19.8454 8.56689 19.4676 8.56689C19.0898 8.56689 18.7787 8.68912 18.5342 8.93356L12.4009 15.0669C12.2676 15.2002 12.1729 15.3447 12.1169 15.5002C12.0609 15.6558 12.0334 15.8225 12.0342 16.0002C12.0342 16.178 12.0622 16.3447 12.1182 16.5002C12.1742 16.6558 12.2685 16.8002 12.4009 16.9336L18.5342 23.0669C18.7787 23.3113 19.0898 23.4336 19.4676 23.4336C19.8454 23.4336 20.1565 23.3113 20.4009 23.0669Z" />
+          </svg>
+        </div>
+        <div
+          class="flex items-center justify-center p-[10px] w-[52px] h-[52px] rounded-[50%] border border-white absolute next cursor-pointer hover:bg-white duration-300 group top-[55%] right-[12%]">
+          <svg class="group-hover:fill-black fill-white duration-300 " xmlns="http://www.w3.org/2000/svg" width="32"
+            height="32" viewBox="0 0 32 32">
+            <path
+              d="M11.5991 23.0669C11.3546 22.8224 11.2324 22.5113 11.2324 22.1336C11.2324 21.7558 11.3546 21.4447 11.5991 21.2002L16.7991 16.0002L11.5991 10.8002C11.3546 10.5558 11.2324 10.2447 11.2324 9.86689C11.2324 9.48912 11.3546 9.17801 11.5991 8.93356C11.8435 8.68912 12.1546 8.56689 12.5324 8.56689C12.9102 8.56689 13.2213 8.68912 13.4658 8.93356L19.5991 15.0669C19.7324 15.2002 19.8271 15.3447 19.8831 15.5002C19.9391 15.6558 19.9666 15.8225 19.9658 16.0002C19.9658 16.178 19.9378 16.3447 19.8818 16.5002C19.8258 16.6558 19.7315 16.8002 19.5991 16.9336L13.4658 23.0669C13.2213 23.3113 12.9102 23.4336 12.5324 23.4336C12.1546 23.4336 11.8435 23.3113 11.5991 23.0669Z" />
+          </svg>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container max-w-[1140px] px-3 mx-auto  lg:pt-[100px]">
+        <div class="grid lg:grid-cols-2 items-center gap-[60px]">
+          <div>
+            <h2 class="font-Rubik text-white text-center lg:hidden text-[40px] font-medium">FAQs</h2> 
+            <img class="w-full" src="./public/image/sec10-img.webp" alt="typing_img"></div>
+          <div>
+            <h2 class="font-Rubik text-white text-[40px] font-medium pb-[35px] lg:block hidden">FAQs</h2>
+            <div class="accordionMenu1">
+              <div class="border-b  border-b-[#4C4C4C] rounded-[4px] mb-5 ">
+                <input type="radio" name="trg2" id="acc4" checked="checked">
+                <label for="acc4" class="   relative block  cursor-pointer bg-transparent  ">
+                  <p class="flex  text-white font-Rubik  items-center justify-between ">
+                    <span class="max-w-[442px] font-normal text-xl ">Q1. Doing Things The SCal Mobile
+                      Way</span><span class=" flex relative  ">
+                      <span class=" w-[10px] h-[2px] absolute left-0 sub mt-1 bg-white"></span>
+                      <span class=" w-[10px] h-[2px] mt-1 rotate-90 bg-white plus"></span>
+                    </span>
+                  </p>
+                </label>
+                <div class="content1 pt-3">
+                  <div class="pb-1 text-[#B2B2B2] font-Rubik bg-transparent pt-[5px] text-base font-normal  ">
+                    SCal Mobile is a U.S. tech solutions company specializing in the recommerce of electronics. We offer
+                    a wide range of iPhones and services, all at competitive prices.
+                  </div>
+                </div>
+              </div>
+              <div class="border-b  border-b-[#4C4C4C] rounded-[4px] mb-5 ">
+                <input type="radio" name="trg2" id="acc5">
+                <label for="acc5" class="  relative text-white font-Rubik block cursor-pointer bg-transparent ">
+                  <p class="flex  text-white font-Rubik  items-center justify-between ">
+                    <span class="max-w-[442px] font-normal text-xl ">Q2. How long has SCal Mobile been
+                      in business?</span><span class=" flex relative  ">
+                      <span class=" w-[10px] h-[2px] absolute left-0 mt-1 sub bg-white"></span>
+                      <span class=" w-[10px] h-[2px] mt-1 rotate-90 bg-white plus"></span>
+                    </span>
+                  </p>
+                </label>
+                <div class="content1 pt-3">
+                  <div class="pb-1 text-[#B2B2B2] font-Rubik bg-transparent text-base font-normal ">
+                    SCal Mobile is a U.S. tech solutions company specializing in the recommerce of electronics. We offer
+                    a wide range of iPhones and services, all at competitive prices.
+                  </div>
+                </div>
+              </div>
+              <div class="border-b  border-b-[#4C4C4C] rounded-[4px]  mb-5">
+                <input type="radio" name="trg2" id="acc6">
+                <label for="acc6" class=" relative text-white font-Rubik block cursor-pointer bg-transparent ">
+                  <p class="flex  text-white font-Rubik  items-center justify-between ">
+                    <span class="max-w-[442px] font-normal text-xl ">Q3. Where does SCal Mobile
+                      operate?</span><span class=" flex relative  ">
+                      <span class=" w-[10px] h-[2px] absolute left-0 mt-1 sub bg-white"></span>
+                      <span class=" w-[10px] h-[2px] mt-1 rotate-90 bg-white plus"></span>
+                    </span>
+                  </p>
+                </label>
+                <div class="content1 pt-3">
+                  <div class="pb-1  text-[#B2B2B2] font-Rubik bg-transparent text-base font-normal ">
+                    SCal Mobile is a U.S. tech solutions company specializing in the recommerce of electronics. We offer
+                    a wide range of iPhones and services, all at competitive prices.
+                  </div>
+                </div>
+              </div>
+              <div class="border-b  border-b-[#4C4C4C] rounded-[4px] mb-5 ">
+                <input type="radio" name="trg2" id="acc7">
+                <label for="acc7" class="   relative block  cursor-pointer bg-transparent  ">
+                  <p class="flex  text-white font-Rubik  items-center justify-between ">
+                    <span class="max-w-[442px] font-normal text-xl ">Q4. What products does SCal Mobile
+                      offer?</span><span class=" flex relative  ">
+                      <span class=" w-[10px] h-[2px] absolute left-0 mt-1 sub bg-white"></span>
+                      <span class=" w-[10px] h-[2px] mt-1 rotate-90 bg-white plus"></span>
+                    </span>
+                  </p>
+                </label>
+                <div class="content1 pt-3">
+                  <div class="pb-1 text-[#B2B2B2] font-Rubik bg-transparent pt-[5px] text-base font-normal  ">
+                    SCal Mobile is a U.S. tech solutions company specializing in the recommerce of electronics. We offer
+                    a wide range of iPhones and services, all at competitive prices.
+                  </div>
+                </div>
+              </div>
+              <div class="border-b  border-b-[#4C4C4C] rounded-[4px] mb-5 ">
+                <input type="radio" name="trg2" id="acc8">
+                <label for="acc8" class="  relative text-white font-Rubik block cursor-pointer bg-transparent ">
+                  <p class="flex  text-white font-Rubik  items-center justify-between ">
+                    <span class="max-w-[442px] font-normal text-xl ">Q5. How do I place an order with
+                      SCal Mobile?</span><span class=" flex relative  ">
+                      <span class=" w-[10px] h-[2px] absolute left-0 mt-1 sub bg-white"></span>
+                      <span class=" w-[10px] h-[2px] mt-1 rotate-90 bg-white plus"></span>
+                    </span>
+                  </p>
+                </label>
+                <div class="content1 pt-3">
+                  <div class="pb-1 text-[#B2B2B2] font-Rubik bg-transparent text-base font-normal ">
+                    SCal Mobile is a U.S. tech solutions company specializing in the recommerce of electronics. We offer
+                    a wide range of iPhones and services, all at competitive prices.
+                  </div>
+                </div>
+              </div>
+              <div class="border-b  border-b-[#4C4C4C] rounded-[4px]  mb-5">
+                <input type="radio" name="trg2" id="acc9">
+                <label for="acc9" class=" relative text-white font-Rubik block cursor-pointer bg-transparent ">
+                  <p class="flex  text-white font-Rubik  items-center justify-between ">
+                    <span class="max-w-[442px] font-normal text-xl ">Q6. How often is inventory
+                      updated?</span><span class=" flex relative  ">
+                      <span class=" w-[10px] h-[2px] absolute left-0 mt-1 sub bg-white sub "></span>
+                      <span class=" w-[10px] h-[2px] mt-1 rotate-90 bg-white plus"></span>
+                    </span>
+                  </p>
+
+                </label>
+                <div class="content1 pt-3">
+                  <div class="pb-1  text-[#B2B2B2] font-Rubik bg-transparent text-base font-normal ">
+                    SCal Mobile is a U.S. tech solutions company specializing in the recommerce of electronics. We offer
+                    a wide range of iPhones and services, all at competitive prices.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- responsive -->
+    <section">
+      <div class="container mx-auto max-w-[1240px] px-3 flex flex-col justify-center pt-[100px]">
+        <div class="flex flex-col mx-auto">
+          <h3 class="text-center text-white font-rubik text-[40px] font-medium leading-[48px]">Contact Us</h3>
+          <p
+            class="text-center font-rubik text-[20px] italic leading-[30px] font-normal bg-gradient-to-br from-[#0076BE] to-[#95D8EB] bg-clip-text text-transparent pt-2">
+            Join Our Family Of Partners</p>
+          <p class="text-white text-center opacity-70 max-w-[899px] font-rubik text-[16px] font-normal leading-[25px]">
+            Want to access unique products at unbeatable prices? Be one of the first to get their hands on the market’s
+            ultimate smartphones?</p>
+          <p
+            class="text-white text-center opacity-70 max-w-[899px] font-rubik text-[16px] font-normal leading-[25px] py-[5px]">
+            If you have already nodded positively, this is your sign to partner with us and enter our ever-growing
+            community of loyal members!</p>
+          <p class="text-white text-center opacity-70 max-w-[899px] font-rubik text-[16px] font-normal leading-[25px]">
+            Being a SCal Mobile partner means you get solutions tailored to your business needs and access our daily and
+            weekly inventory lists with numerous smartphone opportunities at the most competitive prices. We constantly
+            update our catalogs to help you unlock the best deals in the secondary smartphone industry!</p>
+          <p
+            class="text-white text-center opacity-70 max-w-[899px] font-rubik text-[16px] font-bold leading-[25px] py-[5px]">
+            So, are you ready to earn more for less?</p>
+          <p class="text-white text-center opacity-70 max-w-[899px] font-rubik text-[16px] font-normal leading-[25px]">
+            Fill out the contact form below, and we will take care of the rest.</p>
+        </div>
+        <div class="grid lg:grid-cols-2 gap-10 my-20">
+          <form class="order-2 lg:order-1">
+            <div class="grid gap-6 mb-6 md:grid-cols-2">
+              <div>
+                <label for="first_name" class="font-normal font-Rubik text-base text-white opacity-70">First
+                  Name*</label>
+                <input type="text"
+                  class="bg-[#040404] outline-none border border-[#2C2C2C] text-white text-sm rounded-lg block mt-2 w-full px-3 py-4 opacity-80">
+              </div>
+              <div>
+                <label for="last_name" class="font-normal font-Rubik text-base text-white opacity-70">Last Name*</label>
+                <input type="text"
+                  class="bg-[#040404] outline-none border border-[#2C2C2C] text-white text-sm rounded-lg block mt-2 w-full px-3 py-4 opacity-80">
+              </div>
+              <div>
+                <label for="company_name" class="font-normal font-Rubik text-base text-white opacity-70">Company
+                  Name*</label>
+                <input type="text"
+                  class="bg-[#040404] outline-none border border-[#2C2C2C] text-white text-sm rounded-lg block mt-2 w-full px-3 py-4 opacity-80">
+              </div>
+              <div>
+                <label for="phone_number" class="font-normal font-Rubik text-base text-white opacity-70">Phone
+                  Number*</label>
+                <input type="number"
+                  class="bg-[#040404] outline-none border border-[#2C2C2C] text-white text-sm rounded-lg block mt-2 w-full px-3 py-4 opacity-80">
+              </div>
+              <div>
+                <label for="email" class="font-normal font-Rubik text-base text-white opacity-70">Email*</label>
+                <input type="email"
+                  class="bg-[#040404] outline-none border border-[#2C2C2C] text-white text-sm rounded-lg block mt-2 w-full px-3 py-4 opacity-80">
+              </div>
+              <div>
+                <label for="company_type" class="font-normal font-Rubik text-base text-white opacity-70">Company
+                  Type*</label>
+                <select
+                  class="bg-[#040404] outline-none border border-[#2C2C2C] text-white text-sm rounded-lg block mt-2 w-full px-3 py-4 opacity-70">
+                  <option selected>B2B</option>
+                  <option value="US">B3B</option>
+                  <option value="CA">B4B</option>
+                  <option value="FR">B5B</option>
+                  <option value="DE">B6B</option>
+                </select>
+              </div>
+            </div>
+            <div class="mb-6">
+              <label for="Buyers" class="font-normal font-Rubik text-base text-white opacity-70">Buyers*</label>
+              <select id="Buyers"
+                class="bg-[#040404] outline-none border border-[#2C2C2C] text-white text-sm rounded-lg block mt-2 w-full px-3 py-4 opacity-70">
+                <option selected></option>
+                <option value="US">B3B</option>
+                <option value="CA">B4B</option>
+                <option value="FR">B5B</option>
+                <option value="DE">B6B</option>
+              </select>
+            </div>
+            <div class="mb-6">
+              <label for="message" class="font-normal font-Rubik text-base text-white opacity-70">Message</label>
+              <textarea id="message" rows="4"
+                class="bg-[#040404] outline-none border border-[#2C2C2C] text-white text-sm rounded-lg block mt-2 w-full px-3 py-4 opacity-80"></textarea> 
+            </div>
+            <button class="text-white bg-gradient-to-tl from-[#48BF91] to-[#0076BE] flex py-[14px] px-[31px] items-center justify-center gap-[10px] mt-[45px] font-rubik font-normal text-[16px] leading-[25px] rounded-[100px]">Send Now</button>
+          </form>
+          <img class="w-full md:w-[70%] lg:w-full order-1 lg:order-2" src="./public/image/sec11-img.webp" alt="sec10-img">
+        </div>
+      </div>
+    </section>
+    <footer class="bg-[url('/public/image/foot-bg.webp')] bg-cover bg-no-repeat">
+      <div class="container max-w-[1140px] mx-auto px-3 ">
+        <div class="py-[60px] sm:flex gap-[20px] justify-between">
+          <div class="">
+            <img src="./public/image/foot-logo.webp" alt="foot-logo">
+            <p class="text-white opacity-70 max-w-[383px] pt-[24px] font-rubik text-[16px] font-normal leading-[25px]">
+              SCal Mobile is a U.S. tech solutions company that specializes in consumer electronics.</p>
+          </div>
+          <div class="flex gap-[55px] sm:p-0 pt-[30px]">
+            <ul class="m-0 p-0">
+              <li class="text-white text-[20px] font-rubik font-normal leading-[30px]">Links</li>
+              <li class="pt-3"><a
+                  class="text-white font-rubik font-normal opacity-70 leading-[25px] text-[16px] hover:opacity-100 duration-300"
+                  href="#">About Us</a></li>
+              <li class="pt-3"><a
+                  class="text-white font-rubik font-normal opacity-70 leading-[25px] text-[16px] hover:opacity-100 duration-300"
+                  href="#">Services</a></li>
+              <li class="pt-3"><a
+                  class="text-white font-rubik font-normal opacity-70 leading-[25px] text-[16px] hover:opacity-100 duration-300"
+                  href="#">Products</a></li>
+              <li class="pt-3"><a
+                  class="text-white font-rubik font-normal opacity-70 leading-[25px] text-[16px] hover:opacity-100 duration-300"
+                  href="#">Partners</a></li>
+              <li class="pt-3"><a
+                  class="text-white font-rubik font-normal opacity-70 leading-[25px] text-[16px] hover:opacity-100 duration-300"
+                  href="#">FAQs</a></li>
+            </ul>
+            <div>
+              <p class="text-white text-[20px] font-rubik font-normal leading-[30px]">Legal</p>
+              <p
+                class="max-w-[246px] pt-3 text-white font-rubik font-normal text-[16px] leading-[25px] opacity-70 hover:opacity-100 duration-300">
+                Vendor Code of Conduct
+                Data Sanitization Policy
+                Downstream Recycling Policy
+                Environmental and Social Impact
+                QEH&S Policy
+                Universal Waste Policy</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="w-full border-t-[1px] border-t-[#9AD2D0]"></div>
+      <div class="container max-w-[1140px] mx-auto px-3">
+        <div class="flex justify-between items-center py-[18px]">
+          <p class="text-[#BFE2E4] text-base font-normal font-rubik">Copyright © 2022 ScalMobile</p>
+          <div class="flex items-center gap-[10px] sm:gap-4">
+            <a href="https://www.facebook.com/" class="duration-300 hover:translate-y-[-10px]"><svg width="30" height="31"
+                viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="0.5" y="1" width="29" height="29" rx="14.5"
+                  stroke="white" />
+                <path d="M17.0796 11.0464H18.3329V8.92636C17.7261 8.86326 17.1164 8.8321 16.5063 8.83303C14.6929 8.83303 13.4529 9.93969 13.4529 11.9664V13.713H11.4062V16.0864H13.4529V22.1664H15.9062V16.0864H17.9462L18.2529 13.713H15.9062V12.1997C15.9062 11.4997 16.0929 11.0464 17.0796 11.0464Z"
+                  fill="white" />
+              </svg>
+            </a>
+            <a href="https://www.instagram.com/" class="duration-300 hover:translate-y-[-10px]"><svg width="30" height="31"
+                viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="0.5" y="1" width="29" height="29" rx="14.5"
+                  stroke="white" />
+                <path d="M18 9H12C11.072 9.00099 10.1824 9.37006 9.52622 10.0262C8.87006 10.6824 8.50099 11.572 8.5 12.5V18.5C8.50099 19.428 8.87006 20.3176 9.52622 20.9738C10.1824 21.6299 11.072 21.999 12 22H18C18.928 21.999 19.8176 21.6299 20.4738 20.9738C21.1299 20.3176 21.499 19.428 21.5 18.5V12.5C21.499 11.572 21.1299 10.6824 20.4738 10.0262C19.8176 9.37006 18.928 9.00099 18 9ZM15 18.5C14.4067 18.5 13.8266 18.3241 13.3333 17.9944C12.8399 17.6648 12.4554 17.1962 12.2284 16.6481C12.0013 16.0999 11.9419 15.4967 12.0576 14.9147C12.1734 14.3328 12.4591 13.7982 12.8787 13.3787C13.2982 12.9591 13.8328 12.6734 14.4147 12.5576C14.9967 12.4419 15.5999 12.5013 16.1481 12.7284C16.6962 12.9554 17.1648 13.3399 17.4944 13.8333C17.8241 14.3266 18 14.9067 18 15.5C17.9992 16.2954 17.6828 17.058 17.1204 17.6204C16.558 18.1828 15.7954 18.4992 15 18.5ZM18.75 12.5C18.6017 12.5 18.4567 12.456 18.3333 12.3736C18.21 12.2912 18.1139 12.1741 18.0571 12.037C18.0003 11.9 17.9855 11.7492 18.0144 11.6037C18.0434 11.4582 18.1148 11.3246 18.2197 11.2197C18.3246 11.1148 18.4582 11.0433 18.6037 11.0144C18.7492 10.9855 18.9 11.0003 19.037 11.0571C19.1741 11.1139 19.2912 11.21 19.3736 11.3333C19.456 11.4567 19.5 11.6017 19.5 11.75C19.5 11.9489 19.421 12.1397 19.2803 12.2803C19.1397 12.421 18.9489 12.5 18.75 12.5ZM17 15.5C17 15.8956 16.8827 16.2822 16.6629 16.6111C16.4432 16.94 16.1308 17.1964 15.7654 17.3478C15.3999 17.4991 14.9978 17.5387 14.6098 17.4616C14.2219 17.3844 13.8655 17.1939 13.5858 16.9142C13.3061 16.6345 13.1156 16.2781 13.0384 15.8902C12.9613 15.5022 13.0009 15.1001 13.1522 14.7346C13.3036 14.3692 13.56 14.0568 13.8889 13.8371C14.2178 13.6173 14.6044 13.5 15 13.5C15.5304 13.5 16.0391 13.7107 16.4142 14.0858C16.7893 14.4609 17 14.9696 17 15.5Z"
+                  fill="white" />
+              </svg>
+            </a>
+            <a href="https://in.linkedin.com/" class="duration-300 hover:translate-y-[-10px]"><svg width="30" height="31"
+                viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="0.5" y="1" width="29" height="29" rx="14.5"
+                  stroke="white" />
+                <path d="M11.6276 10.833C11.6274 11.1866 11.4868 11.5257 11.2366 11.7756C10.9864 12.0256 10.6472 12.1659 10.2936 12.1657C9.93998 12.1655 9.60091 12.0249 9.35099 11.7747C9.10107 11.5245 8.96076 11.1853 8.96094 10.8317C8.96111 10.4781 9.10176 10.139 9.35193 9.88908C9.60211 9.63915 9.94132 9.49885 10.2949 9.49902C10.6486 9.4992 10.9876 9.63985 11.2376 9.89002C11.4875 10.1402 11.6278 10.4794 11.6276 10.833ZM11.6676 13.153H9.00094V21.4997H11.6676V13.153ZM15.8809 13.153H13.2276V21.4997H15.8543V17.1197C15.8543 14.6797 19.0343 14.453 19.0343 17.1197V21.4997H21.6676V16.213C21.6676 12.0997 16.9609 12.253 15.8543 14.273L15.8809 13.153Z"
+                  fill="white" />
+              </svg>
+            </a>
+            <a href="https://twitter.com/i/flow/login" class="duration-300 hover:translate-y-[-10px]"><svg width="30" height="31"
+                viewBox="0 0 30 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="0.5" y="1" width="29" height="29" rx="14.5"
+                  stroke="white" />
+                <path d="M21.6673 11.3668C21.1662 11.5842 20.6363 11.7279 20.094 11.7935C20.6661 11.4517 21.0948 10.914 21.3007 10.2801C20.763 10.6002 20.1745 10.8257 19.5607 10.9468C19.1503 10.5019 18.604 10.2057 18.0072 10.1047C17.4104 10.0037 16.797 10.1037 16.2632 10.3889C15.7293 10.6742 15.3053 11.1285 15.0575 11.6807C14.8097 12.2329 14.7522 12.8517 14.894 13.4401C13.8069 13.3852 12.7436 13.1021 11.7731 12.6094C10.8026 12.1167 9.94655 11.4253 9.26065 10.5801C9.02008 11.0003 8.89366 11.476 8.89398 11.9601C8.89313 12.4097 9.00346 12.8526 9.21515 13.2492C9.42685 13.6458 9.73333 13.9839 10.1073 14.2335C9.67264 14.2216 9.24724 14.105 8.86732 13.8935V13.9268C8.87058 14.5567 9.09131 15.1662 9.49219 15.6521C9.89307 16.138 10.4495 16.4706 11.0673 16.5935C10.8295 16.6659 10.5826 16.704 10.334 16.7068C10.1619 16.7048 9.99027 16.6892 9.82065 16.6601C9.99659 17.202 10.3371 17.6756 10.7947 18.0149C11.2523 18.3543 11.8044 18.5425 12.374 18.5535C11.4121 19.3103 10.2246 19.7234 9.00065 19.7268C8.77781 19.7275 8.55514 19.7142 8.33398 19.6868C9.5836 20.4936 11.0399 20.922 12.5273 20.9201C13.5538 20.9308 14.5721 20.7368 15.5227 20.3495C16.4734 19.9622 17.3373 19.3894 18.0641 18.6645C18.7909 17.9395 19.366 17.0771 19.7557 16.1274C20.1454 15.1778 20.342 14.16 20.334 13.1335V12.7801C20.8571 12.39 21.3083 11.9118 21.6673 11.3668Z"
+                  fill="white" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script type="module" src="/main.js"></script>
+  <script src=" https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js "
+    integrity=" sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+    </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js "
+    integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+    </script>
+</body>
+</html>

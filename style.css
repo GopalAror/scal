@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800&display=swap');
+
+.view{
+  right: 0 !important;
+}
+.cross4{
+  transform: rotate(45deg);
+}
+.cross5{
+  transform: rotate(-45deg);
+  position: absolute;
+  top: 10%;
+}
+.cross6{
+  display: none;
+}
+.custom-text{
+  -webkit-text-stroke: 1px #5EB1C5;
+  color: transparent;
+}
+.accordionMenu input[type=radio] {
+  display: none;
+}
+.accordionMenu .content {
+  max-height: 0;
+  height: 0;
+  overflow: hidden;
+}
+.accordionMenu input[type=radio]:checked+label+.content {
+  max-height: 2000px;
+  height: auto;
+} 
+.accordionMenu input[type=radio]:checked+label p svg{
+transform: rotate(180deg);
+} 
+.slick-initialized .slick-slide {
+  display: flex !important;
+}
+.accordionMenu1 input[type=radio] {
+  display: none;
+}
+
+.accordionMenu1 .content1 {
+  max-height: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+.accordionMenu1 input[type=radio]:checked+label p span .plus {
+  display: none;
+}
+
+.accordionMenu1 input[type=radio]:checked+label p span .sub {
+  transform: translateX(-10px);
+}
+
+.accordionMenu1 input[type=radio]:checked+label+.content1 {
+  max-height: 2000px;
+  height: auto;
+}
