@@ -9,6 +9,8 @@ lerna-debug.log*
 
 node_modules
 dist
+counter.js
+javascript.svg
 dist-ssr
 *.local
 

@@ -12,6 +12,25 @@ menu.addEventListener("click", function () {
   cross2.classList.toggle("cross5")
   cross3.classList.toggle("cross6")
 })
+// back-to-top
+function scrollBtn() {
+  window.scrollTo(0, 0);
+}
+document.getElementById("topbtn").addEventListener("click",scrollBtn)
+window.addEventListener("scroll", function () {
+  let topbtn = document.getElementById("topbtn");
+  if (window.scrollY > 300) {
+      topbtn.style.display = 'block';
+  }
+  else{
+      topbtn.style.display = 'none';
+  }
+})
+// preloder
+setTimeout(() => {
+  document.getElementById("preloder").classList.add("d-none");
+  document.body.classList.remove("overflow-hidden");
+}, 2000);
 $('.slidr').slick({
   infinite: true,
   speed: 300,
