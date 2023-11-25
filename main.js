@@ -4,6 +4,10 @@ let menu = document.querySelector(".menu")
 let cross1 = document.querySelector(".cross1")
 let cross2 = document.querySelector(".cross2")
 let cross3 = document.querySelector(".cross3")
+let home = document.querySelector(".home")
+let about = document.querySelector(".about")
+let why = document.querySelector(".why")
+
 
 menu.addEventListener("click", function () {
   mobile.classList.toggle("view");
@@ -11,6 +15,27 @@ menu.addEventListener("click", function () {
   cross1.classList.toggle("cross4")
   cross2.classList.toggle("cross5")
   cross3.classList.toggle("cross6")
+})
+home.addEventListener("click", function(){
+  cross1.classList.remove("cross4")
+  cross2.classList.remove("cross5")
+  cross3.classList.remove("cross6")
+  document.querySelector("body").classList.remove("overflow-hidden")
+  mobile.classList.remove("view");
+})
+about.addEventListener("click", function(){
+  cross1.classList.remove("cross4")
+  cross2.classList.remove("cross5")
+  cross3.classList.remove("cross6")
+  document.querySelector("body").classList.remove("overflow-hidden")
+  mobile.classList.remove("view");
+})
+why.addEventListener("click", function(){
+  cross1.classList.remove("cross4")
+  cross2.classList.remove("cross5")
+  cross3.classList.remove("cross6")
+  document.querySelector("body").classList.remove("overflow-hidden")
+  mobile.classList.remove("view");
 })
 // back-to-top
 function scrollBtn() {

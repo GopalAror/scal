@@ -32,7 +32,7 @@
              <img class="w-[30%]" src="./public/image/sec4-img.webp" alt="logo">
       </div>
   <div class="bg-black">
-    <header class="relative z-0">
+    <header class="relative z-10 overflow-hidden">
       <div class="lg:w-[300px] lg:h-[300px] md:w-[250px] md:h-[250px] h-[150px] w-[150px] rounded-[50%] blur-[245px] bg-gradient-to-b from-[#0076BE] to-[#95D8EB]  absolute top-0 right-0">
       </div>
       <img class="absolute top-[-5%] right-[13%] z-0" src="./public/image/head-line.webp" alt="head-line">
@@ -45,15 +45,15 @@
             <div  class="flex items-center max-[640px]:flex-col max-[640px]:justify-center max-[640px]:w-full max-[640px]:fixed max-[640px]:right-[-100%] max-[640px]:top-0 max-[640px]:h-full max-[640px]:gap-[50px] max-[640px]:transition-[.4s] max-[1180px]:bg-black  z-40 mobile">
               <ul class="p-0 m-0 flex max-[640px]:flex-col gap-[24px] justify-center items-center">
                 <li><a
-                    class="font-rubik text-white text-[16px] font-normal opacity-70 leading-[25.6px] hover:opacity-100 transition duration-300 ease-linear"
-                    href="#">Home</a></li>
+                    class="font-rubik text-white home text-[16px] font-normal opacity-70 leading-[25.6px] hover:opacity-100 transition duration-300 ease-linear"
+                    href="#home">Home</a></li>
                 <li><a
-                    class="font-rubik text-white text-[16px] font-normal opacity-70 leading-[25.6px] hover:opacity-100 transition duration-300 ease-linear"
-                    href="#">About Us</a></li>
+                    class="font-rubik text-white about text-[16px] font-normal opacity-70 leading-[25.6px] hover:opacity-100 transition duration-300 ease-linear"
+                    href="#about">About Us</a></li>
                 <li><a
-                    class="font-rubik text-white text-[16px] font-normal opacity-70 leading-[25.6px] hover:opacity-100 transition duration-300 ease-linear"
-                    href="#">Why Choose Us</a></li>
-                <li class=" cursor-pointer font-rubik min-[640px]:hidden text-white text-[16px] font-normal leading-[25.6px] py-[14px] px-[33px] inline-flex items-center gap-[10px] rounded-[100px] bg-gradient-to-tl from-[#48BF91]  to-[#0076BE] hover:bg-gradient-to-tr hover:from-[#48BF91] hover:to-[#0076BE] duration-500">Contact
+                    class="font-rubik text-white why text-[16px] font-normal opacity-70 leading-[25.6px] hover:opacity-100 transition duration-300 ease-linear"
+                    href="#choose">Why Choose Us</a></li>
+                <li class=" cursor-pointer font-rubik min-[400px]:hidden text-white text-[16px] font-normal leading-[25.6px] py-[14px] px-[33px] inline-flex items-center gap-[10px] rounded-[100px] bg-gradient-to-tl from-[#48BF91]  to-[#0076BE] hover:bg-gradient-to-tr hover:from-[#48BF91] hover:to-[#0076BE] duration-500">Contact
                   Us</li>
               </ul>
             </div>
@@ -63,8 +63,7 @@
               <span class="bg-white h-1 w-10 cross3 transition-[.3s] rounded-3xl"></span>
             </label>
             <div class="">
-              <button
-                class="font-rubik max-[400px]:hidden max-[640px]:mr-[50px] text-white text-[16px] font-normal leading-[25.6px] py-[14px] px-[33px] inline-flex items-center gap-[10px] rounded-[100px] bg-gradient-to-tl from-[#48BF91]  to-[#0076BE] hover:bg-gradient-to-tr hover:from-[#48BF91] hover:to-[#0076BE] duration-500">Contact
+              <button  class="font-rubik max-[400px]:hidden max-[640px]:mr-[50px] text-white text-[16px] font-normal leading-[25.6px] py-[14px] px-[33px] inline-flex items-center gap-[10px] rounded-[100px] bg-gradient-to-tl from-[#48BF91]  to-[#0076BE] hover:bg-gradient-to-tr hover:from-[#48BF91] hover:to-[#0076BE] duration-500">Contact
                 Us</button>
             </div>
           </div>
@@ -73,7 +72,7 @@
       <section class="relative">
         <div class="lg:w-[300px] lg:h-[300px] md:h-[250px] md:w-[250px] h-[150px] w-[150px] rounded-[50%] blur-[245px] bg-[#D93228] absolute left-[40%] top-[30%] z-0">
         </div>
-        <div class="container mx-auto px-3 max-w-[1140px] flex flex-col items-center justify-center h-full relative z-[1]">
+        <div class="container mx-auto px-3 max-w-[1140px] flex flex-col items-center justify-center h-full relative z-[1]" id="home">
           <h1  class="text-[white] text-[30px] sm:text-[35px] md:text-[40px] lg:text-[48px] max-w-[813px] text-center leading-[30px] md:leading-[53.76px] font-rubik font-medium pt-[45px] sm:pt-[80px]"  data-aos="fade-down"  data-aos-delay="2000">
             Redefining the Smartphone Re-Commerce Industry Since 2010</h1>
           <p class="max-w-[671px] text-white font-rubik text-[15px] sm:text-[20px] font-normal leading-[30px] text-center opacity-70 pt-2 pb-[45px] sm:pb-[67px]" data-aos="fade-down" data-aos-delay="2000">
@@ -84,7 +83,7 @@
         </div>
       </section>
     </header>
-    <div>
+    <div class="relative z-[0]">
       <div class="container max-w-[1140px] px-3 mx-auto pt-[60px]">
         <div class="grid md:grid-cols-2 gap-[50px]">
           <div>
@@ -100,7 +99,7 @@
         </div>
       </div>
     </div>
-    <div class="relative overflow-hidden">
+    <div class="relative overflow-hidden z-10">
       <div class="container max-w-[1140px] px-3 mx-auto ">
         <div  class="lg:w-[287px] lg:h-[287px] md:w-[200px] md:h-200px w-[150px] h-[150px] bg-[#0076BE] blur-[70px] opacity-40 rounded-[50%] absolute right-[-5%] top-[14%]">
         </div>
@@ -117,7 +116,7 @@
         </div>
       </div>
     </div>
-    <div class="relative">
+    <div class="relative overflow-hidden z-10">
       <div class="lg:w-[300px] lg:h-[300px] md:w-[250px] md:h-[250px] h-[180px] w-[180px] absolute left-[-10%] top-[30%] opacity-50 blur-[151px] bg-gradient-to-tl from-[#48BF91] to-[#8BD9C7] rounded-[50%]">
       </div>
       <div class="container max-w-[1140px] px-3 mx-auto">
@@ -133,7 +132,7 @@
         </div>
       </div>
     </div>
-    <div class="relative overflow-hidden">
+    <div class="relative overflow-hidden z-10">
       <div class="md:w-[287px] md:h-[287px] w-[150px] h-[150px] absolute bottom-[-30%] right-[-10%] bg-[#0076BE] rounded-[50%] blur-[85px] opacity-40"></div>
     <div class="container max-w-[881px] mx-auto px-3 pt-[60px] pb-[40px] sm:pb-[70px] md:pb-[130px] relative" data-aos="flip-up">
       <div class="border-t border-t-[#0076BE] border-b border-b-[#1A91AD]  rounded-[4px] py-[38px] backdrop-sepia-[28.484941482543945px] flex items-center justify-center bg-gradient-to-b from-[rgba(0,118,190,0.05)] to-[rgba(72,191,145,0.05)]">
@@ -145,7 +144,7 @@
       </div>
     </div>
     </div>
-    <section class="bg-[url('/public/image/bg-roadmap.webp')] bg-cover bg-no-repeat">
+    <section class="bg-[url('/public/image/bg-roadmap.webp')] bg-cover bg-no-repeat overflow-hidden" id="choose">
       <div class="container pt-[40px] mx-auto max-w-[1140px]">
         <h2 class="text-white text-center text-[25px] sm:text-[40px] font-rubik font-medium leading-[48px] md:pt-[100px] sm:pt-[50px] pb-2">Why Choose
           Us?</h2>
@@ -231,7 +230,7 @@
         </div>
       </div>
     </section>
-    <section class="lg:py-12 relative z-[1] overflow-hidden">
+    <section class="lg:py-12 relative z-[1] overflow-hidden" id="about">
       <span class="bg-greenlight w-[150px] h-[150px] md:w-[250px] lg:w-[384px] mdh-[250px]: lg:h-[384px] blur-[151px] z-[-1] absolute top-[10%] left-[-20%] "></span>
       <span class="bg-[#0076BE] w-[150px] h-[150px] md:w-[250px] lg:w-[384px] md:h-[250px] lg:h-[384px] blur-[151px] z-[-1] absolute bottom-[10%] right-[-20%] rounded-[50%]"></span>
       <div class="container mx-auto max-w-[1140px] px-3 pt-8 lg:py-12">
